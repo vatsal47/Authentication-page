@@ -34,14 +34,14 @@ let updateUsers = () => {
     } else if (users.length === 0) {
         users.push({
             username: username,
-            password: username,
+            password: password,
         })
     } else if (userExistence()) {
         alert('Username already exist')
     } else {
         users.push({
             username: username,
-            password: username,
+            password: password,
         })
     }
 }
